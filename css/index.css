@@ -46,3 +46,140 @@ html {
   left: 0;
   overflow: hidden;
 }
+.box .page1 .scenery {
+  width: 109.46666667vw;
+  height: 112.93333333vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -54.73333333vw;
+  top: 1.73333333vw;
+}
+.box .page1 .ship {
+  width: 9.46666667vw;
+  height: 17.46666667vw;
+  position: absolute;
+  right: 36.93333333vw;
+  top: 73.33333333vw;
+}
+.box .page1 .glass {
+  width: 100vw;
+  height: 117.6vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -50vw;
+  top: 0;
+}
+.box .page1 .tree {
+  width: 23.06666667vw;
+  height: 20.93333333vw;
+  position: absolute;
+  right: 0.66666667vw;
+  top: 58vw;
+}
+.box .page1 .left-curtain {
+  width: 29.46666667vw;
+  height: 120vw;
+  position: absolute;
+  left: 0vw;
+  top: 0vw;
+}
+.box .page1 .right-curtain {
+  width: 26.66666667vw;
+  height: 120vw;
+  position: absolute;
+  right: 0vw;
+  top: 0vw;
+}
+.box .page1 .logo {
+  width: 16.4vw;
+  height: 22vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -8.2vw;
+  top: 6.8vw;
+}
+.box .page1 .slogan {
+  width: 94.93333333vw;
+  height: 44.53333333vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -47.46666667vw;
+  top: 33.33333333vw;
+}
+.box .page1 .ellipse {
+  width: 84vw;
+  height: 67.06666667vw;
+  position: absolute;
+  left: 1.33333333vw;
+  top: 78vw;
+}
+.box .page1 .peoplebox {
+  width: 100vw;
+  height: 61.33333333vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -50vw;
+  top: 91.2vw;
+}
+.box .page1 .peoplebox .sofa {
+  width: 95.6vw;
+  height: 51.86666667vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -47.8vw;
+  top: 6vw;
+}
+.box .page1 .peoplebox .man {
+  width: 54.53333333vw;
+  height: 34.26666667vw;
+  position: absolute;
+  left: 16.26666667vw;
+  top: 0vw;
+}
+.box .page1 .peoplebox .man1 {
+  width: 54.53333333vw;
+  height: 34.26666667vw;
+  position: absolute;
+  left: 16.26666667vw;
+  top: 0vw;
+}
+.box .page1 .peoplebox .vasebox {
+  width: 26.93333333vw;
+  height: 34vw;
+  position: absolute;
+  right: 0vw;
+  bottom: 0vw;
+}
+.box .page1 .peoplebox .vasebox .flower {
+  width: 27.86666667vw;
+  height: 24vw;
+  position: absolute;
+  right: 0vw;
+  top: 0vw;
+}
+.box .page1 .peoplebox .vasebox .vese {
+  width: 15.6vw;
+  height: 11.2vw;
+  position: absolute;
+  right: 2vw;
+  bottom: 0vw;
+}
+.box .page1 .text2 {
+  width: 65.73333333vw;
+  height: 17.2vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -32.86666667vw;
+  bottom: 27.06666667vw;
+}
+.box .page1 .btnbox {
+  width: 29.86666667vw;
+  height: 15.33333333vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -14.93333333vw;
+  bottom: 9.33333333vw;
+}
+.box .page1 .orthogon {
+  padding: 2vw;
+}
