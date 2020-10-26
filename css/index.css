@@ -5,6 +5,9 @@
 .dn {
   display: none;
 }
+.pr {
+  position: relative;
+}
 img {
   width: 100%;
   height: auto;
@@ -46,6 +49,23 @@ html {
   left: 0;
   overflow: hidden;
 }
+.box {
+  width: 100%;
+  height: 100%;
+}
+.box .orthogonbox {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.box .orthogonbox img {
+  box-sizing: border-box;
+  padding: 2vw;
+}
+.box .page1 {
+  width: 100%;
+  height: 100%;
+}
 .box .page1 .scenery {
   width: 109.46666667vw;
   height: 112.93333333vw;
@@ -60,6 +80,10 @@ html {
   position: absolute;
   right: 36.93333333vw;
   top: 73.33333333vw;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+  animation-direction: alternate;
+  animation-timing-function: ease;
 }
 .box .page1 .glass {
   width: 100vw;
@@ -156,6 +180,7 @@ html {
   position: absolute;
   right: 0vw;
   top: 0vw;
+  animation: rock 4s alternate infinite;
 }
 .box .page1 .peoplebox .vasebox .vese {
   width: 15.6vw;
@@ -180,6 +205,13 @@ html {
   margin-left: -14.93333333vw;
   bottom: 9.33333333vw;
 }
-.box .page1 .orthogon {
-  padding: 2vw;
+@keyframes rock {
+  0% {
+    transform: rotate(15deg);
+    transform-origin: 50% 100%;
+  }
+  100% {
+    transform: rotate(-15deg);
+    transform-origin: 50% 100%;
+  }
 }

@@ -5,6 +5,9 @@
 .dn {
     display: none;
 }
+.pr{
+    position: relative;
+}
 
 img {
     width: 100%;
@@ -109,7 +112,21 @@ html {
     margin-top: -@h/2/@vw;
 }
 .box{
+    width: 100%;
+    height: 100%;
+    .orthogonbox{
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        img{
+            box-sizing: border-box;
+            padding: 15 / @vw;
+        }
+      
+    }
     .page1{
+        width: 100%;
+        height: 100%;
         .scenery{
             .setwh(821, 847);
             .cl(821);
@@ -118,6 +135,11 @@ html {
         .ship{
             .setwh(71, 131);
             .rt(277,550);
+            animation-iteration-count: infinite;
+            animation-duration:10s;
+            animation-direction:alternate;
+            animation-timing-function:ease;
+
             
         }
         .glass{
@@ -173,7 +195,8 @@ html {
                 .rb(0,0);
                 .flower{
                     .setwh(209, 180);
-                    .rt(0, 0)
+                    .rt(0, 0);
+                    animation: rock 4s alternate infinite;
                 }
                 .vese{
                     .setwh(117, 84);
@@ -191,12 +214,26 @@ html {
             .cl(224);
             bottom: 70 / @vw;
         }
-        .orthogon{
-            padding: 15 / @vw;
-        }
-
+        
+       
     }
 }
+
+
+@keyframes rock {
+    0%{
+        transform: rotate(15deg);
+        transform-origin: 50% 100%;
+        
+    }
+    100%{
+        transform: rotate(-15deg);
+        transform-origin: 50% 100%;
+        
+    }
+}
+
+
 
 
 
